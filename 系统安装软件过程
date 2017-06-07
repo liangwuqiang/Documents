@@ -5,3 +5,5 @@ java java安装完成后，不需要另外配置环境变量就可以直接使�
 vim  配置显示效果
 在终端直接安装 sudo apt install <软件名称>
 
+atom 安装方法
+

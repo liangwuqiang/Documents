@@ -1,0 +1,19 @@
+
+安装
+
+把下载到的 ideaIU-14.1.4.tar.gz 移到存放软件的目录，解压，如：/opt 
+
+sudo cp 文件名 /opt
+
+sudo tar xfz ideaIU-14.1.4.tar.gz
+
+bin子目录下，运行命令：./idea.sh
+
+卸载
+
+Linux 的卸载是不需要执行程序的，只需要：删除对应目录。
+
+删除主程序目录 idea-IU-141.1532.4。
+
+如果不想保留你的配置文件，还可以删除配置目录，目录所在位置：./home/你用登录名/.IntelliJIdea14
+
