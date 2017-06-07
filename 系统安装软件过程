@@ -2,6 +2,6 @@
 
 git  配置ssh
 java java安装完成后，不需要另外配置环境变量就可以直接使用。
-vim
-在终端直接安装，
+vim  配置显示效果
+在终端直接安装 sudo apt install <软件名称>
 
