@@ -1,0 +1,19 @@
+[Ubuntu]Ubuntu中Virtualbox虚拟机的安装  
+
+Ubuntu环境下的的虚拟机Virtualbox最新版本4.2.6，下载地址：https://www.virtualbox.org/wiki/Linux_Downloads
+安装文件virtualbox-4.2_4.2.6-82870~Ubuntu~quantal_i386.deb
+执行安装命令：
+$ sudo dpkg -i virtualbox-4.2_4.2.6-82870~Ubuntu~quantal_i386.deb
+或执行自动安装命令：
+$ sudo apt-get install virtualbox-qt
+但这种方式一般不会安装最新版本。
+
+
+启动：
+$ sudo virtualbox
+提示下载安装扩展包，最好是选择安装，否则在虚拟机环境下安装的操作系统无法识别到USB设备，当然也可以下载扩展包后双击安装：
+http://www.virtualbox.org/wiki/Linux_Downloads
+最后记得将Ubuntu登录的用户名加入到vboxusers组：
+
+$ sudo adduser 登录的用户名 vboxusers
+接入USB设备，虚拟机设置‘启用USB控制器’、‘启用USB2.0(EHCI)控制器’，然后启动虚拟系统，右击右下角的USB图标，USB设备就可以选择了。
