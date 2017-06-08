@@ -24,3 +24,17 @@ git add README.md
 git commit -m "first commit"
 git remote add origin git@github.com:liangwuqiang/my-document.git
 git push -u origin master
+
+-----------------------------------------------
+解决git status中文显示的问题：
+
+$ git status -s
+?? "\350\257\264\346\230\216.txt\n
+$ printf "\350\257\264\346\230\216.txt\n"
+说明.txt
+
+通过将Git配置变量 core.quotepath 设置为false，就可以解决中文文件名称在这些Git命令输出中的显示问题，
+示例：
+$ git config --global core.quotepath false
+$ git status -s
+?? 说明.txt

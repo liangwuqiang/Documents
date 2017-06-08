@@ -1,0 +1,10 @@
+按下 Ctrl + Alt + t 键盘组合键调出终端
+
+gsettings set com.canonical.Unity.Launcher launcher-position Bottom
+
+命令中最后的 Bottom 就是底部的意思。
+
+gsettings set com.canonical.Unity.Launcher launcher-position Left
+
+只能这两种状态
+
