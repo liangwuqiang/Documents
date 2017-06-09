@@ -1,3 +1,6 @@
+
+$echo $PATH
+
 系统刚安装好时的PATH
 
 /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin

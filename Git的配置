@@ -1,7 +1,8 @@
 Git SSH Key 生成步骤
 
-$ git config --global user.name liangwuqiang
-$ git config --global user.email l_wuqiang@126.com
+git config --global user.name liangwuqiang
+
+git config --global user.email l_wuqiang@126.com
 
 查看是否已经有了ssh密钥：cd ~/.ssh
 
