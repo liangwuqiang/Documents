@@ -1,0 +1,19 @@
+这是一个模拟键盘输入的库，鼠标的库是 pymouse
+
+# 下载
+https://packages.ubuntu.com/yakkety/amd64/python-virtkey/download
+
+下载的文件
+python-virtkey_0.63.0-0ubuntu5_amd64.deb
+
+安装 
+sudo dpkg -i python-virtkey_0.63.0-0ubuntu5_amd64.deb
+
+直接安装在python2的目录下了
+不知道怎样安装到python3中
+
+在Linux中使用Python模拟键盘按键
+http://blog.csdn.net/zhouy1989/article/details/13997507
+
+python 模拟案件
+http://blog.csdn.net/zhjuan/article/details/6660411
