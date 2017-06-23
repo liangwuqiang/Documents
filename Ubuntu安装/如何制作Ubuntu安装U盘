@@ -1,0 +1,14 @@
+http://www.linuxidc.com/Linux/2015-10/123786.htm
+
+# Linux中制作Ubuntu安装U盘
+
+cd ~/Downloads
+
+sudo dd if=./ubuntu-iso-name.iso of=/dev/sdX
+其中X为U盘的挂载点，当然ubuntu-iso-name表示的是下载好Ubuntu镜像的名称，需要你自己改好。
+
+
+
+制作完成后使用如下命令推出U盘即可：
+
+sudo eject /dev/sdX

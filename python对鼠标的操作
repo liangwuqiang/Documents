@@ -1,0 +1,24 @@
+ 利用python实现对鼠标的移动点击操作
+2016-04-22 17:57 3462人阅读 评论(0) 收藏 举报
+转载自：http://blog.sina.com.cn/s/blog_60b45f230101kucn.html
+
+具体实现，使用外部库PyMouse，使用pip可以直接下载 pip install pymouse
+安装pymouse必须要xlib的支持，刚开始以为xlib仅仅是在windows里面可用的，原来linux里面也有。
+用apt-get下载安装
+sudo apt-get install python-xlib
+
+而在windows里安装pymouse也很简单，pip install pymouse之后，再安装两个依赖模块
+https://sourceforge.net/projects/pywin32/
+https://sourceforge.net/projects/pyhook/
+如果没有特殊需求，选择其中的32位安装包安装，减少出错
+此处给出python2.7版本的包下载地址：
+https://sourceforge.net/projects/pywin32/files/pywin32/Build%20220/pywin32-220.win32-py2.7.exe/download
+https://sourceforge.net/projects/pyhook/files/pyhook/1.5.1/pyHook-1.5.1.win32-py2.7.exe/download
+
+from pymouse import PyMouse
+m = PyMouse()
+m.position()#获取当前坐标的位置
+m.move(x,y)#鼠标移动到xy位置
+m.click(x,y)#移动并且在xy位置点击
+m.click(x,y,1|2)#移动并且在xy位置点击,左右键点击
+
