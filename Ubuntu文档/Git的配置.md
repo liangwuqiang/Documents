@@ -18,15 +18,6 @@ https://github.com/，在setting中SSH and GPG keys添加ssh
 
 5.测试：ssh git@github.com
 
-------------------------------------------------
-仓库上传
-echo "# my-document" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin git@github.com:liangwuqiang/my-document.git
-git push -u origin master
-
 -----------------------------------------------
 解决git status中文显示的问题：
 
@@ -40,3 +31,14 @@ $ printf "\350\257\264\346\230\216.txt\n"
 # $ git config --global core.quotepath false
 $ git status -s
 ?? 说明.txt
+
+------------------------------------------------
+仓库上传
+echo "# my-document" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+# git remote add origin git@github.com:liangwuqiang/my-document.git
+# git push -u origin master
+
+------------------------------------------------
