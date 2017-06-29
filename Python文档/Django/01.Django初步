@@ -1,0 +1,18 @@
+网易云上的课程
+
+Django初步
+
+1.django install
+2.django-admin startproject mysite
+3.django-admin startapp blog
+	python3 manage.py startapp blog
+4.vim settings.py
+	app add --->blog
+5.vim urls.py
+	url(r'/index/$', 'views.index')
+6.vim blog/views.py
+	from django.http import HttpResponse
+	def index(req):
+		return HttpResponse('hello')
+7.python3 manage.py runserver
+	url: 127.0.0.1:8000
