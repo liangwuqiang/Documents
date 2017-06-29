@@ -1,0 +1,1 @@
+简单一点的，图片直接放img目录下，博文里用{{ "/img/图片名.jpg" | prepend: site.baseurl }} 做图片路径
