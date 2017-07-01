@@ -2,15 +2,15 @@
 
 ## //搭建jeckyll环境
 
-1. $ sudo apt install ruby
+1. sudo apt install ruby
 
-2. $ sudo gem install jekyll
+2. sudo gem install jekyll
 
-3. sudo apt install jeckyll
+3. sudo apt install jekyll
 
-4. jeckyll new myblog
+4. jekyll new blog
 
-5. cd myblog
+5. cd blog
 
 ## //建立仓库并推送到网上
 
