@@ -4,7 +4,7 @@
 
 ##  0.MTV模型
 
-![](images\afc7bff9.png)
+![](images/0_MTV模型.jpg)
 
 ## 1.安装Django
 
