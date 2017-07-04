@@ -3,3 +3,6 @@ sudo rmdir 空文件夹名 --/删除一个空文件夹
 sudo rm 文件名 文件名 --/删除一个文件或多个文件
 sudo rm -rf 非空文件夹名 --/删除一个非空文件夹
 
+
+rm    remove的意思
+mv    move
