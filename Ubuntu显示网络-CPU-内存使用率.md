@@ -18,11 +18,11 @@
 之前需要通过deb包安装，现在可以通过添加PPA安装：
 
 
-   sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor  
+   sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor
 
-   sudo apt-get update  
+   sudo apt-get update
 
-   sudo apt-get install indicator-sysmonitor  
+   sudo apt-get install indicator-sysmonitor
 
 
 终端执行：  indicator-sysmonitor &，然后Ctrl+C就可以实现后台运行indicator-sysmonitor，
