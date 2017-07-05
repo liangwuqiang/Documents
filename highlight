@@ -10,5 +10,8 @@ xdotool key shift+End  # 同时按下shift和End键
 xdotool mousemove 880 90  # 将鼠标移动到在屏幕上特定的X和Y坐标位置
 xdotool click 1  # 点击鼠标左键，1表示左键，2表示中键，3表示右键。
 
+# 光标向左移动一格，避免光标在行尾，以适应Write中光标移动的情况
+xdotool key Left
+
 # ok
 
