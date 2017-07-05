@@ -12,6 +12,8 @@ xdotool click 1  # 点击鼠标左键，1表示左键，2表示中键，3表示�
 
 # 光标向左移动一格，避免光标在行尾，以适应Write中光标移动的情况
 xdotool key Left
+xdotool key Down
+xdotool key Home
 
 # ok
 
