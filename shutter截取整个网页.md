@@ -1,4 +1,10 @@
-使用shutter,里面含有gnome-web-photo链接，在图像界面下可直接截取
+shutter使用gnome-web-photo可截取整个网页，png格式
+
+## 安装
+
+sudo apt install -y shutter gnome-web-photo
+
+
 
 ----------------------------------------------
 

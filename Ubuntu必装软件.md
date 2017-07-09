@@ -18,31 +18,31 @@ https://www.zhihu.com/question/19811112?sort=created
 
 6.画图：Draw.io 可以画UML、页面设计(Android&iOS)，相当于visio
 
-7.图片处理：GIMP （好）
+7.图片处理：GIMP （很好）
 
 8.视频播放：VLC 不知道是否支持mkv
 
 9.浏览器：Chrome、FireFox （默认FireFox）
 
-10.截屏：Shutter  支持修改图片
+10.截屏：Shutter  支持修改图片 （好）
 
 11.输入法：搜狗输入法 (很好)
 
-12.启动栏：Docky  很像OS X的启动栏 (不好，要用鼠标，无快捷方式)
+12.启动栏：Docky  很像OS X的启动栏 (不好，要用鼠标，无快捷方式,仿苹果)
 
     sudo apt install docky
 
     sudo apt remove docky
 
-13.美化/主题：Unity Tweak Tool
+13.美化/主题：Unity Tweak Tool （只是美化界面用的，不是很有必要）
 
 14.有道词典 官网下载deepin，不要下载Ubuntu，安装出问题 (好)
 
-15.indicator-sysmonitor  实时查看系统信息
+15.indicator-sysmonitor  实时查看系统信息 （很好）
 
 16.思维导图：Xmind  支持保存到印象笔记、保存到云端
 
-17.迅雷Xware Desktop  与迅雷官方没有任何关系，Ubuntu安装需手动编译、
+17.迅雷Xware Desktop  与迅雷官方没有任何关系，Ubuntu安装需手动编译 （需要源码编译）
 
 --------------------------------------
 ### 程序员常用
