@@ -18,11 +18,11 @@ https://www.zhihu.com/question/19811112?sort=created
 
 6.画图：Draw.io 可以画UML、页面设计(Android&iOS)，相当于visio
 
-7.图片处理：GIMP （好）
+7.图片处理：GIMP （很好）
 
 8.视频播放：VLC 不知道是否支持mkv
 
-9.浏览器：Chrome、FireFox （默认FireFox）
+9.浏览器：Chrome、FireFox （默认FireFox，很好）
 
 10.截屏：Shutter  支持修改图片
 
