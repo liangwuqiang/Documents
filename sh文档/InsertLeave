@@ -1,0 +1,8 @@
+#!/bin/sh
+
+fcitx-remote -c
+
+sleep 1
+
+xdotool key ESC
+

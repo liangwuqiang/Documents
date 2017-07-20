@@ -1,0 +1,9 @@
+#!/bin/sh
+
+xdotool key alt+f # 打开文件菜单
+sleep 0.1
+xdotool key d # 菜单项New Document
+sleep 0.1
+xdotool key e # 子菜单Empty Document
+
+# ok
