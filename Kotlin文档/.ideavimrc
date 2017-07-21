@@ -1,68 +1,24 @@
-" 很棒的插件，解决了我的代码输入时光标移动问题（不使用键盘右区），
 " http://blog.csdn.net/simple_the_best/article/details/53132943
 
-" 插入模式：光标移动，删除
-inoremap <C-h> <Left>
-inoremap <C-j> <Down>
-inoremap <C-k> <Up>
-inoremap <C-l> <Right>
-inoremap <C-s> <Home>
-inoremap <C-e> <End>
-inoremap <C-d> <Delete>
+" 插入模式：光标移动，删除(全部释放，热键归还IDE)
+" inoremap <C-h> <Left>
+" inoremap <C-j> <Down>
+" inoremap <C-k> <Up>
+" inoremap <C-l> <Right>
+" inoremap <C-s> <Home>
+" inoremap <C-e> <End>
+" inoremap <C-d> <Delete>
 
-inoremap <C-n> <Backspace>
-inoremap <C-m> <Delete>
+" 插入模式：返回普通状态
+" inoremap <C-b> <Esc>
+inoremap jj <Esc>
+inoremap kk <Esc>
 
-" 插入模式：返回普通状态,Back
-inoremap <C-b> <Esc>
-
-" 普通模式：关闭文件,Quit
+" 普通模式：关闭文件
 nnoremap <Space>q  :q<CR>
 nnoremap <Space>Q  :qa!<CR>
 
-" 普通模式：快速翻页，Up，Down
+" 普通模式：快速翻页
 nnoremap <Space>d  <C-d>
 nnoremap <Space>u  <C-u>
 
-" 以下还用不到=====================================
-
-" clear the highlighted search result
-nnoremap <Space>sc :nohlsearch<CR>
-
-nnoremap <Space>fs :w<CR>
-
-
-" Quit visual mode
-vnoremap v <Esc>
-
-" Move to the start of line
-nnoremap H ^
-
-" Move to the end of line
-nnoremap L $
-
-" Redo
-nnoremap U <C-r>
-
-" Yank to the end of line
-nnoremap Y y$
-
-" Auto indent pasted text
-nnoremap p p=`]<C-o>
-
-" Window operation
-nnoremap <Space>ww <C-W>w
-nnoremap <Space>wd <C-W>c
-nnoremap <Space>wj <C-W>j
-nnoremap <Space>wk <C-W>k
-nnoremap <Space>wh <C-W>h
-nnoremap <Space>wl <C-W>l
-nnoremap <Space>w= <C-W>=
-nnoremap <Space>ws <C-W>s
-nnoremap <Space>w- <C-W>s
-nnoremap <Space>wv <C-W>v
-nnoremap <Space>w\| <C-W>v
-
-" Tab operation
-nnoremap <Space>tn gt
-nnoremap <Space>tp gT
