@@ -1,0 +1,55 @@
+
+程序运行的结果:
+################################### 
+#  test 测试 (U: tɛst E: test )
+#  n. 试验；检验
+#  vt. 试验；测试
+#  vi. 试验；测试
+#  n. (Test)人名；(英)特斯特
+################################### 
+====================================
+程序接收到的数据:
+{"translation":["测试"],"basic":{"us-phonetic":"tɛst","phonetic":"test","uk-phonetic":"test","explains":["n. 试验；检验","vt. 试验；测试","vi. 试验；测试","n. (Test)人名；(英)特斯特"]},"query":"test","errorCode":0,"web":[{"value":["测试","测验","检验"],"key":"Test"},{"value":["Test Drive","Test Drive","无限狂飙"],"key":"Test Drive"},{"value":["测试员","测试工程师","软件测试工程师"],"key":"Test Engineer"}]}
+====================================
+对数据重排,以利于阅读
+{"translation":["测试"],
+
+"basic":{
+    "us-phonetic":"tɛst",
+    "phonetic":"test",
+    "uk-phonetic":"test",
+    "explains":[
+        "n. 试验；检验",
+        "vt. 试验；测试",
+        "vi. 试验；测试",
+        "n. (Test)人名；(英)特斯特"
+]},
+
+"query":"test",
+
+"errorCode":0,
+
+"web":[
+    {"value":["测试","测验","检验"],"key":"Test"},
+    {"value":["Test Drive","Test Drive","无限狂飙"],"key":"Test Drive"},
+    {"value":["测试员","测试工程师","软件测试工程师"],"key":"Test Engineer"}
+]}
+====================================
+对数据进行json格式的转换:
+{u'errorCode': 0, u'query': u'test', u'translation': [u'\u6d4b\u8bd5'], u'web': [{u'key': u'Test', u'value': [u'\u6d4b\u8bd5', u'\u6d4b\u9a8c', u'\u68c0\u9a8c']}, {u'key': u'Test Drive', u'value': [u'Test Drive', u'Test Drive', u'\u65e0\u9650\u72c2\u98d9']}, {u'key': u'Test Engineer', u'value': [u'\u6d4b\u8bd5\u5458', u'\u6d4b\u8bd5\u5de5\u7a0b\u5e08', u'\u8f6f\u4ef6\u6d4b\u8bd5\u5de5\u7a0b\u5e08']}], u'basic': {u'phonetic': u'test', u'us-phonetic': u't\u025bst', u'explains': [u'n. \u8bd5\u9a8c\uff1b\u68c0\u9a8c', u'vt. \u8bd5\u9a8c\uff1b\u6d4b\u8bd5', u'vi. \u8bd5\u9a8c\uff1b\u6d4b\u8bd5', u'n. (Test)\u4eba\u540d\uff1b(\u82f1)\u7279\u65af\u7279'], u'uk-phonetic': u'test'}}
+====================================
+数据排列
+{
+u'errorCode': 0, 
+u'query': u'test', 
+u'translation': [u'\u6d4b\u8bd5'], 
+u'web': [
+
+{u'key': u'Test', u'value': [u'\u6d4b\u8bd5', u'\u6d4b\u9a8c', u'\u68c0\u9a8c']}, 
+{u'key': u'Test Drive', u'value': [u'Test Drive', u'Test Drive', u'\u65e0\u9650\u72c2\u98d9']}, 
+{u'key': u'Test Engineer', u'value': [u'\u6d4b\u8bd5\u5458', u'\u6d4b\u8bd5\u5de5\u7a0b\u5e08', u'\u8f6f\u4ef6\u6d4b\u8bd5\u5de5\u7a0b\u5e08']}], 
+
+u'basic': {u'phonetic': u'test', u'us-phonetic': u't\u025bst', u'explains': [u'n. \u8bd5\u9a8c\uff1b\u68c0\u9a8c', u'vt. \u8bd5\u9a8c\uff1b\u6d4b\u8bd5', u'vi. \u8bd5\u9a8c\uff1b\u6d4b\u8bd5', u'n. (Test)\u4eba\u540d\uff1b(\u82f1)\u7279\u65af\u7279'], u'uk-phonetic': u'test'}}
+
+
+

@@ -1,0 +1,4 @@
+sys.argv =[sys.argv[0],'argument1','argument2','argument2']
+调试好后整句加个#注解掉就ok。 
+
+第一项是文件名,包含文件路径.

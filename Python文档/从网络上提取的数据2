@@ -1,0 +1,35 @@
+http://fanyi.youdao.com/openapi.do?keyfrom=wufeifei&key=716426270&type=data&doctype=json&version=1.1&q=test
+
+	
+translation	
+0	"测试"
+basic	
+us-phonetic	"tɛst"
+phonetic	"test"
+uk-phonetic	"test"
+explains	
+0	"n. 试验；检验"
+1	"vt. 试验；测试"
+2	"vi. 试验；测试"
+3	"n. (Test)人名；(英)特斯特"
+query	"test"
+errorCode	0
+web	
+0	
+value	
+0	"测试"
+1	"测验"
+2	"检验"
+key	"Test"
+1	
+value	
+0	"Test Drive"
+1	"Test Drive"
+2	"无限狂飙"
+key	"Test Drive"
+2	
+value	
+0	"测试员"
+1	"测试工程师"
+2	"软件测试工程师"
+key	"Test Engineer"
