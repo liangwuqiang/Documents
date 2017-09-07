@@ -1,0 +1,7 @@
+给matplotlib图表添加中文注释
+
+from matplotlib.font_manager import FontProperties
+chinese_font = FontProperties(fname='/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc')
+
+plt.title(u'标题', fontproperties=chinese_font)
+plt.ylabel(u'y轴', fontproperties=chinese_font)
