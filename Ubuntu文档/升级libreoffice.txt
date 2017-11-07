@@ -1,0 +1,5 @@
+sudo add-apt-repository ppa:libreoffice/libreoffice-5-4
+
+在提示时输入密码，然后更新和升级LibreOffice：
+
+sudo apt update && sudo apt install libreoffice
