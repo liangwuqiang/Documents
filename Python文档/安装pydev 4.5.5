@@ -1,0 +1,20 @@
+安装pydev
+
+1. 原因
+后来在pydev的官网：http://www.pydev.org/ 上找到了问题的原因。
+原来，因为我安装的是JDK7（也就是Java 7），而Pydev的最新版5.0.0是需要Java 8的。支持Java 7的最后一个版本是pydev 4.5.5。
+pydev 4.5.5最后支持java7的版本.png
+
+
+2. 解决办法
+既然如此，那我们安装pydev 4.5.5就行了。
+可以看到下面有这么一句：
+    See: update sites page for the update site of older versions of PyDev.
+如果需要安装旧版本的pydev，去update sites page。 那就打开这个网站，找到pydev 4.5.5. 
+链接如下：http://www.pydev.org/update_sites/index.html
+打开之后，可以看到pydev 4.5.5版本的插件更新的地址为：
+
+    http://www.pydev.org/update_sites/4.5.5/
+
+点击菜单【help】->【Install New Software】，输入上面Pydev 4.5.5的地址。
+然后选择PyDev和PyDev Mylyn Integration，按照提示一步步完成。完成之后，重启eclipse，就可以看到PyDev了。
