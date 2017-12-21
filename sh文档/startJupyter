@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# 启动快捷键定义为 F12
+xdotool key ctrl+alt+t  # 打开终端
+sleep 1
+xdotool type 'cd PyProjects'  # 进入工作目录
+xdotool key Return
+xdotool type 'jupyter notebook'  # 调用jupyter
+xdotool key Return
+xdotool key ctrl+alt+0  # 最小化终端窗口
