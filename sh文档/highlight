@@ -1,6 +1,7 @@
 #!/bin/sh
 
 ### 这是个在libreOffice Writer下对文本进行高亮标识的脚本
+# 快捷键定义为 右边的Ctrl键
 
 # 文本选择，当前光标所在的行
 xdotool key Home  # 按下Home键
