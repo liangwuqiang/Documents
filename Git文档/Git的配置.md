@@ -7,9 +7,11 @@ Git SSH Key 生成步骤
 
 查看是否已经有了ssh密钥：cd ~/.ssh
 
-# $ ssh-keygen -t rsa -C l_wuqiang@126.com
+# ssh-keygen -t rsa -C l_wuqiang@126.com
 按3个回车，密码为空。
 最后得到了两个文件：id_rsa和id_rsa.pub 在home/lwq/.ssh目录中
+
+# gedit ~/.ssh/id_rsa.pub
 
 添加密钥到ssh：ssh-add 文件名  需要之前输入密码。 
 
@@ -28,7 +30,10 @@ $ printf "\350\257\264\346\230\216.txt\n"
 
 通过将Git配置变量 core.quotepath 设置为false，就可以解决中文文件名称在这些Git命令输出中的显示问题，
 示例：
-# $ git config --global core.quotepath false
+# git config --global core.quotepath false
+
+# git config --global push.default simple
+只推送当前分支到远程关联的同名分支，即 'git push' 推送当前分支。
 $ git status -s
 ?? 说明.txt
 
